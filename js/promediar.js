@@ -22,7 +22,7 @@ function agregarNotas(){
         
     }
     //Validar las notas, no mayor de 21 puntos, solo asta 20
-    if(not1 >= 21 || not2 >= 21  || not3 >= 21){
+    if(not1 >= 100 || not2 >= 100  || not3 >= 100){
         alert("la nota no puede ser mas de 20")
         return false;
     }
@@ -33,9 +33,8 @@ function agregarNotas(){
     //Variable obserbacion
     var  obs =0;
     //Promedio menor o igual a 12.5 entonces aprobado, caso ocntrario aprobado
-    if(prom >=12.5){
+    if(prom >=70.5){
         obs =value="!Aprobado¡ &#x2714";
-        
     }else{
     obs =value="!Desaprobado¡ &#x274c";
     
