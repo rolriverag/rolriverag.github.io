@@ -33,7 +33,7 @@ function agregarNotas(){
     //Variable obserbacion
     var  obs =0;
     //Promedio menor o igual a 12.5 entonces aprobado, caso ocntrario aprobado
-    if(prom >=70.5){
+    if(prom >=69.5){
         obs =value="!Aprobado¡ &#x2714";
     }else{
     obs =value="!Desaprobado¡ &#x274c";
